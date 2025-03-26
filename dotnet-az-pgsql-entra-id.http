@@ -1,0 +1,9 @@
+@dotnet_az_pgsql_entra_id_HostAddress = http://localhost:5055
+
+GET {{dotnet_az_pgsql_entra_id_HostAddress}}/hello/
+Accept: application/json
+
+###
+
+GET {{dotnet_az_pgsql_entra_id_HostAddress}}/db
+Accept: application/json
